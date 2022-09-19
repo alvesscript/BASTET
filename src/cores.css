@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container {
+    
+
+    height: auto;
+    display: flex;
+}
+
+.cor1 {
+    width: 18%;
+    background: #42215f;
+    box-sizing: border-box;
+}
+
+.cor2 {
+    width: 18%;
+    background: #b83737;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor3 {
+    width: 18%;
+    background-color: #ffe92c ;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor4 {
+    width: 18%;
+    background: #0ba0ff;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor5 {
+    width: 18%;
+    background: #61ff0b;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor6 {
+    width: 18%;
+    background: #e400ff;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.totilogo {
+    max-width: 45px;
+}
+
+.imagem1 {
+    width: 35px;
+    
+}
+
+.instagram {
+    width: 35px;
+
+}
+
+.facebook {
+    width: 35px;
+   
+}
+
+.linkedin {
+    width: 35px;
+ 
+}
+
+.textos {
+    display: flex;
+    max-width: 100%;
+    background: #42215f;
+    color: white;
+    font-size: 120x;
+}
+
+
+
+/*add responsive media quaries*/
+@media screen and (max-width: 600px) {
+    .box {
+        width: 40%;
+        
+    }
+    
+}
