@@ -1,0 +1,150 @@
+/* 1 Card */
+.card {
+	background-color: #42215f;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0px;
+	border-color: #070008;
+	border-style: solid;
+	transition: 200ms;
+	max-width: 380px;
+	font-size: calc(1px + 2vmin);
+}
+
+.card-header {
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.card-title-group {
+	justify-content: center;
+}
+
+.card-title {
+	flex: 0.5 1;
+	font-size: large;
+	margin-bottom: revert;
+	margin-top: 0;
+	color: #fff;
+	border-width: thick;
+	border-style: inset;
+	border-color: #fff;
+}
+
+
+.card-image {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.card-text {
+	width: 350px;
+	/* font-size: medium; */
+	text-align: justify;
+	color: #ffff;
+}
+
+/* Card0 *//*/////////////////////////*/
+
+.card0 {
+	background-color: #42215f;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0px;
+	border-color: #070008;
+	border-style: solid;
+	transition: 200ms;
+	max-width: 380px;
+	font-size: calc(1px + 2vmin);
+}
+
+.card-header0 {
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.card-title0 {
+	justify-content: center;
+}
+
+
+.card-title0 {
+	flex: 0.5 1;
+	font-size: large;
+	margin-bottom: revert;
+	margin-top: 0;
+	color: #fff;
+	border-width: thick;
+	border-style: inset;
+	border-color: #fff;
+}
+
+
+.card-image0 {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.card-text0 {
+	width: 350px;
+	/* font-size: medium; */
+	text-align: justify;
+	color: #ffff;
+}
+
+/* card1 */
+
+.card1 {
+	background-color: #42215f;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0px;
+	border-color: #070008;
+	border-style: solid;
+	transition: 200ms;
+	max-width: 380px;
+	font-size: calc(1px + 2vmin);
+}
+
+.card-header1 {
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.card-title1 {
+	justify-content: center;
+}
+
+.card-title1 {
+	flex: 0.5 1;
+	font-size: large;
+	margin-bottom: revert;
+	margin-top: 0;
+	color: #fff;
+	border-width: thick;
+	border-style: inset;
+	border-color: #fff;
+}
+
+
+.card-image1 {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.card-text1 {
+	width: 350px;
+	/* font-size: medium; */
+	text-align: justify;
+	color: #ffff;
+}
+
