@@ -1,0 +1,35 @@
+.Cadastro_home {
+    background-color:rgb(64, 34, 94) ;
+    margin-top: 50px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+.cadastro_title{
+    font-size: 2.7rem;
+    margin-left: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.button {
+    margin-left: 60px;
+    background-image: linear-gradient(to right, rgba(213, 112, 140, 0.861), rgb(243, 17, 96));
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, rgba(151, 75, 130, 0.861), rgba(218, 42, 145, 0.929));
+}
+
+.cadastro_img img {
+  float: right;
+  width: 70%;
+}

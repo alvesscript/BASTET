@@ -6,17 +6,11 @@ import instagram from './img/instagram.png';
 import facebook from './img/facebook.png';
 import linkedin from './img/linkedin.png';
 
-
-
-
-
-
-
-
 const App = () => {
   return ( 
 
 <div>
+  <p>oi</p>
   <div className='container'>
   <div className='cor1'></div>
   <div className='cor2'></div>
@@ -25,6 +19,7 @@ const App = () => {
   <div className='cor5'></div>
   <div className='cor6'></div>
 </div>
+
   
 <div className='todasimagens'>
   

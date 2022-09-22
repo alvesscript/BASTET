@@ -1,0 +1,68 @@
+.box {
+    border-radius: 15px;
+    margin: 40px;
+    color: white ;
+    left: 40%;
+     background-color:rgb(230, 62, 121);
+     padding: 20px; 
+  }
+  
+  .legend {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .inputBox {
+    position: relative;
+  }
+  
+  .inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  
+  .labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .inputUser:focus ~ .labelInput,
+  .inputUser:valid~ .labelInput {
+    top:-20px;
+    font-size: 15px;
+    color: rgba(250, 245, 249, 0.925);
+  }
+   
+  #data-nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  #submit{
+    background-image: linear-gradient(to right, rgba(139, 25, 226, 0.861),rgba(147, 15, 234, 0.929));
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  #submit:hover {
+    background-image:linear-gradient(to right, rgba(96, 31, 128, 0.861), rgb(56, 15, 97));
+  }
+  
