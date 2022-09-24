@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
-import youtube from '../../assests/youtube.png';
-import totilogo from '../../assests/totilogo.png';
-import instagram from '../../assests/instagram.png';
-import facebook from '../../assests/facebook.png';
-import linkedin from '../../assests/linkedin.png';
+import youtube from '../../../img/youtube.png';
+import totilogo from '../../../img/totilogo.png';
+import instagram from '../../../img/instagram.png';
+import facebook from '../../../img/facebook.png';
+import linkedin from '../../../img/linkedin.png';
 
 export function Header() {
     return (

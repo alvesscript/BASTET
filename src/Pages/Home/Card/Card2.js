@@ -1,10 +1,8 @@
 import React from "react";
 import "./Card.css";
-import turma from "../img/turma.png";
+import turma from "../../../img/turma.png";
 
-
-
-export default function Card(props) {
+export default function Card2(props) {
     return (
         <div className="card">
             <img className="card-image" src={turma} alt="Logo" />

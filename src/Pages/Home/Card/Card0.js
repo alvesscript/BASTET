@@ -1,8 +1,5 @@
-import React from "react";
 import "./Card.css";
-import turma from "../img/turma.png";
-
-
+import turma from "../../../img/turma.png";
 
 export default function Card0(props) {
     return (

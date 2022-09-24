@@ -1,5 +1,5 @@
 import './style.css'
-import cadastro from '../../assests/cadastro.jpg'
+import cadastro from '../../../img/cadastro.jpg'
 
 export function Banner_2() {
 

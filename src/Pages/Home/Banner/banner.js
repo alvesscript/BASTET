@@ -1,6 +1,6 @@
 import './banner.css';
-import Img from '../../assests/Img.png';
-import img_2 from '../../assests/img_2.jpg';
+import Img from '../../../img/Img.png';
+import img_2 from '../../../img/img_2.jpg';
 
 export function Banner() {
     return (

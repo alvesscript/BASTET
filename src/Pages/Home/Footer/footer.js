@@ -1,7 +1,7 @@
-import './App.css';
-import Test from './componentes/Test.js';
+import './footer.css';
+import Test from './parceiros';
 
-function App() {
+export function Footer() {
   return (
     <div className='App'>
       <div className='img'></div>
@@ -13,4 +13,6 @@ function App() {
   );
 }
 
-export default App;
+export default Footer;
+
+

@@ -23,7 +23,13 @@ h1 {
  align-items: center;
 }
 
-img {
+.parceiro1 ,
+.parceiro2 ,
+.parceiro3 ,
+.parceiro4 ,
+.parceiro5,
+.parceiro6,
+.parceiro7{
     height: auto;
     width: auto;
     max-height: 150px;
