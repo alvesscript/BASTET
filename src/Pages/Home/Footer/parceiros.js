@@ -1,9 +1,14 @@
 import React from 'react';
+import './footer.css';
+
+
+
 
 export function Test() {
 return (
- <div className='container'>
-    <div className='item'>
+ <div className='flexfooter'>
+  
+  <div className='item'>
     <img
    className='parceiro1'
     src={require('../../../img/parceiro1.png')} 
@@ -40,10 +45,8 @@ return (
     alt='parceiro7'/>
     
     </div>
-
   </div>
-  
 );
-}
+};
 
 export default Test;
