@@ -1,8 +1,9 @@
+import React from 'react';
 import './cadastro.css'
 
 export function Cadastro() {
     return (
-       <div className='box'>
+       <div className='Container_cadastro'>
         <form className="form" >
             <legend className="legend"><b>Criar Conta</b></legend>
             <p>Já é um membro?<a href='#'>Login</a></p>
@@ -49,3 +50,5 @@ export function Cadastro() {
     </div>
     );
 }
+
+export default Cadastro;
