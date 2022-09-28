@@ -8,7 +8,9 @@ export function Banner_2() {
             <div className='Cadastro_home'>
                 <div>
                     <h1 className='cadastro_title'>Cadastre-se gratuitamente</h1>
-                    <button className='button'>Clique aqui</button>
+                    <a href="http://localhost:3000/Cadastro">
+                        <button className='button'>Clique Aqui</button>
+                    </a>
                 </div>
                 <div className='cadastro_img'><img src={cadastro} alt='cadastro' /></div>
             </div>
