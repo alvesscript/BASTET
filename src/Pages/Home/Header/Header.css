@@ -95,6 +95,8 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
+    align-content: flex-start;
+    justify-content: space-between;
 }
 
 .textos a {
@@ -103,8 +105,18 @@
 }
 
 .button_login  {
-    background: #fff;
-    color: #42215f;
+    cursor: pointer;
+    padding: 2px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+   background-color: rgb(250, 4, 4);
+}
+
+.button_login:hover {
+    border-width: 1px;
+    border: #fdf7f7;
+    background-color: rgb(200, 32, 85);
 }
 
 /*add responsive media quaries*/
