@@ -6,7 +6,7 @@ export function Cadastro() {
        <div className='Container_cadastro'>
         <form className="form" >
             <legend className="legend"><b>Criar Conta</b></legend>
-            <p>Já é um membro?<a href='#'>Login</a></p>
+            <p>Já é um membro?<a href='http://localhost:3002/login'>Login</a></p>
             <br></br>
             <div className="inputBox">
               <input type="text" required="yes" name="nome" id="nome" class="inputUser required"/>

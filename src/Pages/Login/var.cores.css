@@ -1,0 +1,46 @@
+
+.cores-login {
+    display: flex;
+}
+.cor1login {
+    width: 18%;
+    background: #42215f;
+    box-sizing: border-box;
+}
+
+.cor2login {
+    width: 18%;
+    background: #b83737;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor3login {
+    width: 18%;
+    background-color: #ffe92c ;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor4login {
+    width: 18%;
+    background: #0ba0ff;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cor5login {
+    width: 18%;
+    background: #61ff0b;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.cor6login {
+    width: 18%;
+    background: #e400ff;
+    height: 20px;
+    box-sizing: border-box;
+}
