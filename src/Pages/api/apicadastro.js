@@ -62,7 +62,7 @@ export function Tabelaapi() {
               </tr>
 
               <tr className='aluno' id='quarto-aluno'>
-                <td className='td-nome'>Gilson Agostinho</td>
+                <td className='td-nome'>Gilson Agostinhoo</td>
                 <td className='td-trabalho'>10.0</td>
                 <td className='td-prova'>10.0</td>
                 <td className='td-media'>0</td>
