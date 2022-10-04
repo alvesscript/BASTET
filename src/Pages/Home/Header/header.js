@@ -38,7 +38,7 @@ export function Header() {
                 <a href='#'>BLOG</a>
                 <a href='#'>AJUDA</a>
                 <div className='button_login'>
-                    <a href="http://localhost:3002/login"><button className='button_login'>LOGIN</button> </a>
+                    <a href="http://localhost:3000/login"><button className='button_login'>LOGIN</button> </a>
 
                 </div>
             </div>
