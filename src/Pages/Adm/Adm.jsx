@@ -26,8 +26,8 @@ const Adm = () => {
   });
 
   useEffect(() => {
-    const db_costumer = localStorage.getItem("cad_cliente")
-      ? JSON.parse(localStorage.getItem("cad_cliente"))
+    const db_costumer = localStorage.getItem("cad_aluno")
+      ? JSON.parse(localStorage.getItem("cad_aluno"))
       : [];
 
     setData(db_costumer);
@@ -38,7 +38,7 @@ const Adm = () => {
 
     setData(newArray);
 
-    localStorage.setItem("cad_cliente", JSON.stringify(newArray));
+    localStorage.setItem("cad_aluno", JSON.stringify(newArray));
   };
 
   return (
@@ -48,9 +48,11 @@ const Adm = () => {
       justify="center"
       fontSize="20px"
       fontFamily="poppins"
+      background="#42215f"
+     
     >
-      <Box maxW={800} w="100%" h="100vh" py={10} px={2}>
-        <Button colorScheme="blue" onClick={() => [setDataEdit({}), onOpen()]}>
+      <Box maxW={1000} w="50%" h="100vh" py={11} px={2}>
+        <Button color="white" colorScheme="red" onClick={() => [setDataEdit({}), onOpen()]}>
           NOVO CADASTRO
         </Button>
 
@@ -58,38 +60,34 @@ const Adm = () => {
           <Table mt="6">
             <Thead>
               <Tr>
-                <Th maxW={isMobile ? 5 : 100} fontSize="20px">
+                <Th maxW={isMobile ? 5 : 100} fontSize="20px"  color="white">
                   Nome
                 </Th>
-                <Th maxW={isMobile ? 5 : 100} fontSize="20px">
+                <Th maxW={isMobile ? 5 : 110} fontSize="20px" color="white">
                   E-Mail
                 </Th>
-                <Th maxW={isMobile ? 5 : 100} fontSize="20px">
+                <Th maxW={isMobile ? 5 : 110} fontSize="20px" color="white">
                   Telefone
                 </Th>
-                <Th maxW={isMobile ? 5 : 100} fontSize="20px">
+                <Th maxW={isMobile ? 5 : 110} fontSize="20px" color="white">
                   Idade
-                </Th>
-                <Th maxW={isMobile ? 5 : 100} fontSize="20px">
-                 Documento
                 </Th>
                 <Th p={0}></Th>
                 <Th p={0}></Th>
               </Tr>
             </Thead>
             <Tbody>
-              {data.map(({ name, email, telefone, idade, file }, index) => (
-                <Tr key={index} cursor="pointer " _hover={{ bg: "gray.100" }}>
+              {data.map(({ name, email, telefone, idade}, index) => (
+                <Tr key={index} cursor="pointer" color="white">
                   <Td maxW={isMobile ? 5 : 100}>{name}</Td>
                   <Td maxW={isMobile ? 5 : 100}>{email}</Td>
                   <Td maxW={isMobile ? 5 : 100}>{telefone}</Td>
                   <Td maxW={isMobile ? 5 : 100}>{idade}</Td>
-                  <Td maxW={isMobile ? 5 : 100}>{file}</Td>
                   <Td p={0}>
                     <EditIcon
                       fontSize={20}
                       onClick={() => [
-                        setDataEdit({ name, email, telefone, idade, file, index }),
+                        setDataEdit({ name, email, telefone, idade, index}),
                         onOpen(),
                       ]}
                     />

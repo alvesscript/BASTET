@@ -16,6 +16,11 @@ width: 40%;
 
 */
 
+.redesbaixo {
+    display: flex;
+    gap: 4px;
+}
+
 .imagensfooter {
     display: flex; 
     align-items: end;

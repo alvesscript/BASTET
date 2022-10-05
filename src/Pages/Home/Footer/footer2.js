@@ -20,10 +20,10 @@ export function footer2() {
         <div className='corunica'>CONTATOS</div>
         
     <div className='redesbaixo'>
-        <img className='facebook1' src={facebook} alt="foto4" />
-        <img className='linkedin1' src={linkedin} alt="foto3" />
-        <img className='instagram1' src={instagram} alt="foto2" />
-        <img className='imagem11' src={youtube} alt="foto" />
+    <a href="https://www.facebook.com/toti.diversidade/" target="_blank"><img className='facebook1' src={facebook} alt="foto4" /></a>
+    <a href=" https://br.linkedin.com/school/toti-diversidade/" target="_blank"><img className='linkedin1' src={linkedin} alt="foto3" /></a>
+    <a href=" https://www.instagram.com/toti.diversidade/" target="_blank"><img className='instagram1' src={instagram} alt="foto2" /></a>
+    <a href=" https://www.youtube.com/c/TotiDiversidade" target="_blank"><img className='imagem11' src={youtube} alt="foto" /></a>
     </div>
     </div>
 

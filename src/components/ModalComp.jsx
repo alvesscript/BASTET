@@ -19,25 +19,25 @@ import {
     const [email, setEmail] = useState(dataEdit.email || "");
     const [telefone, setTelefone] = useState(dataEdit.telefone || "");
     const [idade, setIdade] = useState(dataEdit.idade || "");
-    const [file, setFile] = useState(dataEdit.file|| "");
+
   
   
     const handleSave = () => {
-      if (!name || !email || !telefone || !idade || !file) return;
+      if (!name || !email || !telefone || !idade) return;
   
       if (emailAlreadyExists()) {
         return alert("E-mail já cadastrado!");
       }
   
       if (Object.keys(dataEdit).length) {
-        data[dataEdit.index] = { name, email, telefone, idade, file };
+        data[dataEdit.index] = { name, email, telefone, idade};
       }
   
       const newDataArray = !Object.keys(dataEdit).length
-        ? [...(data ? data : []), { name, email, telefone, idade, file }]
+        ? [...(data ? data : []), { name, email, telefone, idade}]
         : [...(data ? data : [])];
   
-      localStorage.setItem("cad_cliente", JSON.stringify(newDataArray));
+      localStorage.setItem("cad_aluno", JSON.stringify(newDataArray));
   
       setData(newDataArray);
   
@@ -92,14 +92,6 @@ import {
                     value={idade}
                     onChange={(e) => setIdade(e.target.value)}
                   />
-                </Box>
-                <Box>
-                  <FormLabel>Documento</FormLabel>
-                  <Input
-                   type="file"
-                   value={file}
-                   onChange={(e) => setFile(e.target.value)}
-                    />
                 </Box>
               </FormControl>
             </ModalBody>

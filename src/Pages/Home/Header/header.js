@@ -24,11 +24,11 @@ export function Header() {
                 <div className='totilogo2'>
                     <img src={totilogo2} alt="foto1" />
                 </div>
-                <div className='redes-header'>
-                    <img className='facebook' src={facebook} alt="foto4" />
-                    <img className='linkedin' src={linkedin} alt="foto3" />
-                    <img className='instagram' src={instagram} alt="foto2" />
-                    <img className='imagem1' src={youtube} alt="foto" />
+                <div className='redes-header'> 
+                <a href="https://www.facebook.com/toti.diversidade/" target="_blank"><img className='facebook' src={facebook} alt="foto4" /></a>
+                <a href=" https://br.linkedin.com/school/toti-diversidade/" target="_blank"><img className='linkedin' src={linkedin} alt="foto3" /></a>
+                <a href=" https://www.instagram.com/toti.diversidade/" target="_blank"><img className='instagram' src={instagram} alt="foto2" /></a>
+                <a href=" https://www.youtube.com/c/TotiDiversidade" target="_blank"><img className='imagem1' src={youtube} alt="foto" /></a>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ export function Header() {
                 <a href='#'>BLOG</a>
                 <a href='#'>AJUDA</a>
                 <div className='button_login'>
-                    <a href="http://localhost:3000/login"><button className='button_login'>LOGIN</button> </a>
+                    <a href="http://localhost:3002/login"><button className='button_login'>LOGIN</button> </a>
 
                 </div>
             </div>
